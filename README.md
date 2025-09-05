@@ -51,7 +51,7 @@ O **EcoTrend** oferece uma experiência de compra moderna e intuitiva, trazendo 
 
 ## 🔗 Site
 
-Confira a execução do projeto 👉 [**EcoTrend**](https://github.com/seu-repo)  
+Confira a execução do projeto 👉 [**EcoTrend**](https://luararamos.github.io/eco-trend-ecommerce/)
 
 ---
 ##  👩‍💻 Author
@@ -65,3 +65,4 @@ Feito com ❤️ por Luara Ramos.
 
 [![Linkedin Badge](https://img.shields.io/badge/-LuaraRamos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luararamos/)](https://www.linkedin.com/in/luararamos-desenvolvedor-android/) 
 [![Gmail Badge](https://img.shields.io/badge/-luara.m.ramos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luara.m.ramos@gmail.com)](mailto:luara.m.ramos@gmail.com)
+
