@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EcoTrend - Detalhes do Produto</title>
+  <title>EcoTrend - Produto</title>
   <link rel="icon" type="image/png" href="img/logo-eco-trend.png">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
+
 <header class="custom-header">
   <nav class="navbar navbar-expand-lg navbar-light container">
     <a class="navbar-brand d-flex align-items-center text-green font-weight-bold" href="index.html">
@@ -30,32 +31,28 @@
     </div>
   </nav>
 </header>
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-md-6">
-        <img id="produto-imagem" src="img/camiseta.jpg"
-             class="img-fluid rounded shadow">
-      </div>
 
-      <div class="col-md-6">
-        <h2 id="produto-nome" class="text-green">Camiseta Sustentável</h2>
-        <p id="produto-descricao">Feita 100% de algodão orgânico, esta camiseta é perfeita para quem busca estilo e consciência ambiental.</p>
-        <h4 id="produto-preco" class="text-green">R$ 89,90</h4>
-        <button class="btn btn-green btn-lg mt-3">Adicionar ao Carrinho</button>
-      </div>
+<main class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img id="produto-imagem" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6">
+      <h2 id="produto-nome" class="text-green"></h2>
+      <p id="produto-descricao"></p>
+      <h4 id="produto-preco" class="text-green"></h4>
+      <button class="btn btn-green btn-lg mt-3">Adicionar ao Carrinho</button>
     </div>
   </div>
+</main>
 
 <footer class="footer py-5">
   <div class="container">
     <div class="row text-center text-md-left">
-      
-
       <div class="col-md-4 mb-4">
         <h5 class="text-uppercase">EcoTrend</h5>
         <p>Produtos sustentáveis para um futuro mais verde. Conscientes, ecológicos e acessíveis.</p>
       </div>
-
       <div class="col-md-4 mb-4">
         <h5 class="text-uppercase">Links</h5>
         <ul class="list-unstyled">
@@ -65,8 +62,6 @@
           <li><a href="#">Ajuda</a></li>
         </ul>
       </div>
-
-
       <div class="col-md-4 mb-4">
         <h5 class="text-uppercase">Contato</h5>
         <p>Email: contato@ecotrend.com</p>
@@ -77,17 +72,18 @@
           <a href="#"><i class="fab fa-linkedin fa-lg mx-2"></i></a>
         </div>
       </div>
-
     </div>
-
     <div class="text-center mt-4">
       <p>&copy; 2025 EcoTrend - Todos os direitos reservados.</p>
     </div>
   </div>
 </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="produtos.js"></script>
+
 </body>
 </html>
